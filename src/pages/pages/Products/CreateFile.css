@@ -1,0 +1,29 @@
+
+.containerr {
+    padding: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: none;
+    background: #cccaca;
+    color: #000;
+  }
+  .img,
+  .button {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .modal .modal-dialog .modal-content .modal-body {
+    padding: 10px 26px;
+  }
+  

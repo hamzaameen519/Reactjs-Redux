@@ -1,0 +1,45 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #080e10;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+} */
+
+/* * {
+  box-sizing: border-box;
+} */
+.containerr {
+  padding: 2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: none;
+  background: #cccaca;
+  color: #000;
+}
+.img,
+.button {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+  padding: 10px 26px;
+}
